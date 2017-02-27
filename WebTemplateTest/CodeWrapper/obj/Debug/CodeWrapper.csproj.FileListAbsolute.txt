@@ -1,0 +1,8 @@
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodeWrapper\bin\Debug\CodeWrapper.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodeWrapper\bin\Debug\CodeWrapper.pdb
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodeWrapper\obj\Debug\CodeWrapper.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodeWrapper\obj\Debug\CodeWrapper.pdb
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodeWrapper\bin\Debug\CodeWrapper.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodeWrapper\bin\Debug\CodeWrapper.pdb
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodeWrapper\obj\Debug\CodeWrapper.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodeWrapper\obj\Debug\CodeWrapper.pdb

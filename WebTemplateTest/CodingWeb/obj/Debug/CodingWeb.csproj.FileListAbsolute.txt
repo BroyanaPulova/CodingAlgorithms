@@ -1,0 +1,70 @@
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\roslyn\csc.exe
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\roslyn\vbc.exe
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\CodingWeb.dll.config
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\CodingWeb.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\CodingWeb.pdb
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\CodeWrapper.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\System.Web.Helpers.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\System.Web.Mvc.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\System.Web.Razor.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\System.Web.Webpages.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\System.Web.Webpages.Razor.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\CodeWrapper.pdb
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\System.Web.Razor.xml
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\System.Web.Webpages.xml
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\System.Web.Webpages.Razor.xml
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\System.Web.Helpers.xml
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\bin\System.Web.Mvc.xml
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\obj\Debug\CodingWeb.csprojResolveAssemblyReference.cache
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\obj\Debug\CodingWeb.dll
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\CodingWeb\obj\Debug\CodingWeb.pdb
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\roslyn\csc.exe
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\roslyn\vbc.exe
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\CodingWeb.dll.config
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\CodingWeb.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\CodingWeb.pdb
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\CodeWrapper.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\System.Web.Helpers.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\System.Web.Mvc.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\System.Web.Razor.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\System.Web.Webpages.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\System.Web.Webpages.Razor.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\CodeWrapper.pdb
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\System.Web.Razor.xml
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\System.Web.Webpages.xml
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\System.Web.Webpages.Razor.xml
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\System.Web.Helpers.xml
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\bin\System.Web.Mvc.xml
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\obj\Debug\CodingWeb.csprojResolveAssemblyReference.cache
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\obj\Debug\CodingWeb.dll
+C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\CodingWeb\obj\Debug\CodingWeb.pdb

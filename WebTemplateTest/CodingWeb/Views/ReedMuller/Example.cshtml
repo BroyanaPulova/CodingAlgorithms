@@ -1,0 +1,125 @@
+﻿
+@{
+    ViewBag.Title = "Example";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="jumbotron home home-fullscreen" id="home">
+    <div class="mask"></div>
+    <a href="#" class="logo">
+        <img src="~/Content/IMG/96x96.png" alt="Moderno - Theme by GraphBerry.com">
+    </a>
+    <!-- Offsite navigation -->
+    <div class="container">
+        <div class="header-info">
+            <h1>ШУМОЗАЩИТНО КОДИРАНЕ</h1>
+            <p>
+                кодиране на информацията с цел с запазването и при предаването в каналите за връзка.
+            </p>
+            <a href="/Coding/Coding" class="btn btn-primary">ОЩЕ>></a>
+        </div>
+    </div>
+</div>
+<!-- Services section end -->
+<!-- Portfolio section start -->
+<section id="portfolio" class="darker">
+    <div class="container">
+        <header>
+            <h2>ПРИЛОЖЕНИЕ</h2>
+        </header>
+    </div>
+    <div id="single-project"></div>
+    <div class="row">
+        <div class="container">
+            <div class="col-md-6 text-xs-right">
+                <div class="panel panel-info">
+                    <div class="panel-heading">Кодиране:</div>
+                    <div class="row">
+                        <div class="container">
+                            <select id="R" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                <option>R</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <select id="M" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                <option>M</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <button type="submit" class="btn btn-primary">Напред</button>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label for="comment">Въведете Y:</label>
+                        <input type="text" class="form-control" id="Y">
+                        <br />
+                        <input onclick="reedMullerEncode()" type="submit" class="btn btn-primary" value="Напред" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 text-xs-right">
+                <div class="panel panel-info">
+                    <div class="panel-heading">Декодиране:</div>
+                    <div class="row">
+                        <div class="container">
+                            <select id="R1" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                <option>R</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <select id="M1" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                <option>M</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <button type="submit" class="btn btn-primary">Напред</button>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <label for="comment">Въведете Y:</label>
+                        <input type="text" class="form-control" id="Y1">
+                        <br />
+                        <input onclick="reedMullerDecode()" type="submit" class="btn btn-primary" value="Напред" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-6 text-xs-right">
+            <div class="panel panel-info">
+                <div class="panel-heading">Резултат</div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label for="comment">Правилният Y:</label>
+                        <input type="text" disabled class="form-control" id="Youtput">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 text-xs-right">
+            <div class="panel panel-info">
+                <div class="panel-heading">Резултат</div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label for="comment">Правилният Y:</label>
+                        <input type="text" disabled class="form-control" id="Youtput1">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<!-- Contact section end -->
+<!-- Footer start -->

@@ -1,0 +1,122 @@
+﻿
+@{
+    ViewBag.Title = "Example";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron home home-fullscreen" id="home">
+    <div class="mask"></div>
+    <a href="#" class="logo">
+        <img src="~/Content/IMG/96x96.png" alt="Moderno - Theme by GraphBerry.com">
+    </a>
+    <!-- Offsite navigation -->
+    <div class="container">
+        <div class="header-info">
+            <h1>ШУМОЗАЩИТНО КОДИРАНЕ</h1>
+            <p>
+                кодиране на информацията с цел с запазването и при предаването в каналите за връзка.
+            </p>
+            <a href="/Coding/Coding" class="btn btn-primary">ОЩЕ>></a>
+        </div>
+    </div>
+</div>
+<!-- Services section end -->
+<!-- Portfolio section start -->
+<section id="portfolio" class="darker">
+    <div class="container">
+        <header>
+            <h2>ПРИЛОЖЕНИЕ</h2>
+        </header>
+    </div>
+    <div id="single-project"></div>
+    <div class="row">
+        <div class="container">
+            <div class="col-md-6 text-xs-right">
+                <div class="panel panel-info">
+                    <div class="panel-heading">Входни данни</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="container">
+                                <select id="rows" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                    <option>Редове</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                                <select id="cols" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                    <option>Колони</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                                <button id="generate" type="submit" class="btn btn-primary">Напред</button>
+                            </div>
+                            <br />
+                            <table id="matrix"></table>
+
+                            <script>
+                                    $(document).ready(function () {
+
+                                        String.prototype.repeat = function (n) {
+                                            return new Array(n + 1).join(this);
+                                        }
+
+                                        $('#generate').click(function () {
+                                            $('table').empty();
+                                            var col = parseInt($('#rows').val());
+                                            var row = parseInt($('#cols').val());
+                                            var head = "<th></th>".repeat(row);
+                                            var tableHead = "<tr>" + head + "</tr>"
+                                            var tableData = "<td><input type='text' class='form-control'/></td>".repeat(row);
+                                            var tableRow = "<tr>" + tableData + "</tr>";
+                                            var table = tableRow;
+
+                                            $('#matrix').append(tableHead);
+
+                                            for (i = 0; i < col; i++) {
+                                                $('#matrix tr:last').after(table);
+                                            }
+                                        });
+                                    })
+                            </script>
+
+                            <br />
+                            <button type="submit" class="btn btn-primary" style="margin-left:40%;" onclick="matrixCode('SystematicForm')">Напред</button>
+                        </div>
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-xs-right">
+                <div class="panel panel-info">
+                    <div class="panel-heading">Резултат</div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <div class="form-group">
+                                <label for="comment">Проверовъчната матрица е:</label>
+                                <textarea readonly class="form-control" rows="9" id="SystematicForm"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact section end -->
+<!-- Footer start -->
+

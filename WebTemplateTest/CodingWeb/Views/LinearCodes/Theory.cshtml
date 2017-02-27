@@ -1,0 +1,134 @@
+﻿
+@{
+    ViewBag.Title = "Theory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron home home-fullscreen" id="home">
+    <div class="mask"></div>
+    <a href="#" class="logo">
+        <img src="~/Content/IMG/96x96.png" alt="Moderno - Theme by GraphBerry.com">
+    </a>
+    <!-- Offsite navigation -->
+    <div class="container">
+        <div class="header-info">
+            <h1>ШУМОЗАЩИТНО КОДИРАНЕ</h1>
+            <p>
+                кодиране на информацията с цел с запазването и при предаването в каналите за връзка.
+            </p>
+            <a href="/Coding/Coding" class="btn btn-primary">ОЩЕ>></a>
+        </div>
+    </div>
+</div>
+<!-- Services section start -->
+<!-- Services section end -->
+<!-- Portfolio section start -->
+<section id="portfolio" class="darker">
+    <div class="container">
+        <div class="panel panel-default" style="margin-right:2.5%;">
+            <div class="panel-body">
+                <h2>Линейни кодове</h2>
+                <h3> Обща характеристика на линейните кодове</h3>
+                <p align="justify">
+                    Допуска се че азбуката <math>`F_q`</math> е поле на Галоа <math>`GF(q)`</math>, където q е проста степен и <math>`(F_q )^n`</math> се
+                    разглежда като векторно пространство <math>`V(n, q)`</math>. Векторът <math>`(x_1,x_2,…,x_n)`</math> се записва по следния начин
+                    <math>`x_1 x_2  … x_n`</math>.
+                </p>
+                <p align="justify">
+                    Линеен код над <math>`GF(q)`</math> е пространстовото на <math>`V(n, q)`</math> за някое положително цяло число <math>`n`</math>. Следователно,
+                    подмножеството <math>`C`</math> на <math>`V(n, q)`</math> е линеен код когато:
+                </p>
+                <ul>
+                    <li><p align="justify"><math>`u + v in C`</math> за всяко <math>`u`</math> и <math>`v`</math> в <math>`C`</math>.</p></li>
+                    <li><p align="justify"> <math>`a.u in C`</math> за всички <math>`u in C`</math>, <math>`a in GF(q)`</math>.</p></li>
+                </ul>
+                    
+                   
+                <p align="justify">
+                    Бинарният код е линеен, тогава и само тогава, когато сумата от две кодови думи е кодова дума.
+                </p>
+                <p align="justify">
+                    Ако <math>`С`</math> е k-множество подпространството на <math>`V(n, q)`</math>, тогава линейният код <math>`С`</math> се нарича <math>`[n, k]`</math> код. В случай,
+                    че трябва да се означи минималното разстояние <math>`d`</math> на <math>`С`</math>, кодът се записва като <math>`[n, k, d]`</math> код.
+                </p>
+                <ul>
+                    <li><p align="justify">q-ичен <math>`[n, k, d]`</math> код е същия q-ичен <math>`[n, q^k, d]`</math> код, но не всеки <math>`[n, q^k, d]`</math> код е <math>`[n, k, d]`</math> код.</p></li>
+                    <li><p align="justify">Ненулевият вектор 0 принадлежи на линейния код.</p></li>
+                    <li><p align="justify"> Линейните кодове са група от кодове.</p></li>
+                </ul>
+                <p align="justify">
+                    Теглото <math>`w(x)`</math> на вектора <math>`x`</math> в <math>`V(n, q)`</math> се дефинира като броя на ненулевите слементи на <math>`x`</math>. Минималното разстояние на
+                    линейния код е равно на най-малкото тегло от теглата на ненулевите кодови думи.
+                </p>
+                <h3>Лема:</h3>
+                <p align="justify">
+                  Ако <math>`x`</math> и <math>`y ∈ V(n, q)`</math>, тогава <math>`d(x, y) = w(x - y)`</math>.
+                 </p>
+                <h3>Доказателство:</h3>
+                 <p align="justify">
+                Векторът <math>`x - y`</math> има ненулеви елементи точно в тези места, където <math>`x`</math> и <math>`y`</math> се различават.
+                  </p>
+                <h3>Теорема:</h3>
+                  <p align="justify">
+                 Нека <math>`С`</math> е линен код и нека <math>`w(C)`</math> да бъде най - малкото от теглата от ненулевите кодови думи на <math>`С`</math>.
+                Тогава <math>`d(C) = w(C)`</math>.
+                  </p>
+                <h3>Дефиниция:</h3>
+                 <p align="justify">
+                Матрица с размери <math>`k×n`</math>, чиито редове формират базис на линеен <math>`[n, k]`</math> код се нарича пораждаща матрица на кода и се означава с <math>`G`</math>.
+                 </p>
+                <p align="justify">
+                    Допуска се, че <math>`С`</math> е <math>`[n, k]`</math> код върху <math>`GF(q)`</math> спораждаща матрица <math>`G`</math>. Кодът <math>`C`</math> съдържа <math>`q^k`</math> кодови думи.
+                    Те могат да се използват за <math>`q^k`</math> отделни съобщения. Те се идентифицират с <math>`q^k`</math> на брой к-орки от <math>`V(n, q)`</math>,
+                    като векторът на съобщението <math>`u = u_1,u_2,…,u_k`</math> се кодира чрез умножение отдясно с пораждащата матрица <math>`G`</math>.
+                    Ако стълбовете на <math>`G`</math>  са <math>`с_1,с_2,…,с_n`</math>, то <math>`uG = ∑_(i=0)^k u_i  c_j`</math>, <math>`j= bar(1,n)`</math>, където <math>`uG`</math> 
+                    е кодовата дума с дължина <math>`n`</math> над <math>`С`</math> – линейна комбинация
+                    от колоните на пораждащата матрица. Тези <math>`q^k`</math> на брой к-орки се явяват спекъра на класа породен от матрицата <math>`G`</math>.
+                </p>
+                <h3>Алгоритъм за намиране на спектър на линеен код:</h3>
+                <h4>Входни данни:</h4>
+                <p align="justify">
+                    Пораждаща матрица на кода <math>`G_(K × N)`</math> (K – реда и N - стълба)
+                </p>
+                <p align="justify">
+                    За образъване на спектъра на този линеен код е необходимо да се:
+                </p>
+                <p align="justify">
+                    Генерират всички комбинации на <math>`1, 2, …, K`</math> елемента K-ти калс на редовете на матрицата.
+                </p>
+                <p align="justify">
+                    Да се извърши техния побитов <math>`XOR`</math>.
+                </p>
+                <p align="justify">
+                    Спектара на класа са получените <math>`K^2-1`</math> бинарни вектора.
+                </p>
+                <h3>Пример:</h3>
+                    <p align="justify">
+                        Входна матрица – пораждаща матрица на линейния код:
+                    </p>
+                <br />
+                    <p align="center">
+                        <math>`G=((0,0,0,1,1,1,1),(0,1,1,0,0,1,1),(1,0,1,0,1,0,1))`</math>
+                    </p>
+                <br />
+                    <p align="justify">
+                        Редовете се обозначават съответно с: <math>`g_1,   g_2,   g_3.`</math>.
+                    </p>
+                    <p align="justify">
+                        Образуват се комбинациите: <math>`g_1,    g_2,    g_3,    g_1+ g_2,   g_1+ g_3,   g_2+ g_3,   g_1+ g_2+ g_3.`</math>
+                    </p>
+                    <p align="justify">
+                        Като резултат се получава спектъра на линейния код:
+                        <br/>
+                        <math>`0 0 0 1 1 1 1,  0 1 1 0 0 1 1,  1 0 1 0 1 0 1,  0 1 1 1 1 0 0,  1 0 1 1 0 1 0,  1 1 0 0 1 1 0,  1 1 0 1 0 0 1`</math>
+                    </p>
+
+
+
+</div>
+        </div>
+    </div>
+</section>
+<!-- Contact section end -->
+<!-- Footer start -->
+

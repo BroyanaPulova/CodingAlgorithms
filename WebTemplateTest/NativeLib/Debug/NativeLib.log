@@ -1,0 +1,21 @@
+﻿  SpecterLinearCode.cpp
+  ShannonFano.cpp
+c:\users\boryana\desktop\дипломна\webtemplatetest\webtemplatetest\nativelib\shannonfano.cpp(31): warning C4018: '<': signed/unsigned mismatch
+c:\users\boryana\desktop\дипломна\webtemplatetest\webtemplatetest\nativelib\shannonfano.cpp(104): warning C4018: '<': signed/unsigned mismatch
+  NativeLib.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2372): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2372): note: see declaration of 'std::copy::_Unchecked_iterators::_Deprecate'
+  c:\users\boryana\desktop\дипломна\webtemplatetest\webtemplatetest\nativelib\nativelib.cpp(22): note: see reference to function template instantiation '_OutIt *std::copy<std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,char*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>
+          ]
+  Huffman.cpp
+c:\users\boryana\desktop\дипломна\webtemplatetest\webtemplatetest\nativelib\huffman.cpp(20): warning C4018: '<': signed/unsigned mismatch
+  EncodeHelper.cpp
+c:\users\boryana\desktop\дипломна\webtemplatetest\webtemplatetest\nativelib\encodehelper.cpp(16): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+     Creating library C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\Debug\NativeLib.lib and object C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\Debug\NativeLib.exp
+  NativeLib.vcxproj -> C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\Debug\NativeLib.dll
+  NativeLib.vcxproj -> C:\Users\Boryana\Desktop\Дипломна\WebTemplateTest\WebTemplateTest\Debug\NativeLib.pdb (Full PDB)

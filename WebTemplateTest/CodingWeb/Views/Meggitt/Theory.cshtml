@@ -1,0 +1,406 @@
+﻿
+@{
+    ViewBag.Title = "Theory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron home home-fullscreen" id="home">
+    <div class="mask"></div>
+    <a href="#" class="logo">
+        <img src="~/Content/IMG/96x96.png" alt="Moderno - Theme by GraphBerry.com">
+    </a>
+    <!-- Offsite navigation -->
+    <div class="container">
+        <div class="header-info">
+            <h1>ШУМОЗАЩИТНО КОДИРАНЕ</h1>
+            <p>
+                кодиране на информацията с цел с запазването и при предаването в каналите за връзка.
+            </p>
+            <a href="/Coding/Coding" class="btn btn-primary">ОЩЕ>></a>
+        </div>
+    </div>
+</div>
+<!-- Services section start -->
+<!-- Services section end -->
+<!-- Portfolio section start -->
+<section id="portfolio" class="darker">
+    <div class="container">
+        <div class="panel panel-default" style="margin-right:2.5%;">
+            <div class="panel-body">
+                <h2>Декодер на Медит</h2>
+                <p align="justify">
+                    Цикличните кодове са клас кодове с богата алгебрична структура и се прилагат ефективно с елементарни устройства,
+                    известни като преместващи регистри. Кодове, като бинарни Hamming кодов, Golay кодове и др. са еквивалентни на цикличните кодове.
+                </p>
+                <h3>  Дефиниция:</h3>
+                <p align="justify">
+                    Кодът <math>`С`</math> е цикличен ако той е линеен код и всяко циклично преместване на елементите в кодовата дма е друга кодова дума,
+                    тоест когато кодовата дума <math>`a_0  a_1 cdots a_(n-1)`</math> е в <math>`С`</math>, тогава и кодовата дума  <math>`a_(n-1) a_0 cdots a_1`</math>  е в <math>`С`</math>.
+                </p>
+                <p align="justify">
+                    Полето на <math>`GF(q)`</math> се означава с <math>`F_q`</math> или <math>`F`</math>. Означава се с <math>`F[x]`</math> множеството то полиноми в <math>`x`</math>
+                    с коефициенти в <math>`F`</math> .
+                    Ако <math>`f(x)=f_0+f_2 x+ cdots +f_m x^m`</math>  е полином с коефициенти <math>`f_0,f_2,cdots,f_m`</math>  то mсе нарича степен на полинома <math>`f(x)`</math> ,
+                    което се означава с <math>`degf(x)`</math> .
+                    Степента на нулевия полином е минус безкрайност <math>`(-∞)`</math> . Коефициентът <math>`f_m`</math>  се нарича водещ коефициент.
+                    Полиномът се нарича моничен, с неговият водещ коефициент е 1.
+                </p>
+                <p align="justify">
+                    Координатните позиции на цикличния код се номерират с <math>`0, 1,cdots, n-1`</math> , което означава че векторът на
+                    кода <math>`C=a_0  a_1  cdots a_(k-1)`</math>  от <math>`V(n, q)`</math>  е в съответствие с полинома на кода
+                </p>
+                <br />
+                <p align="justify">
+                    <math>`C(x)=a_0+ a_1 x+  cdots +a_(n-1) x^(n-1)`</math>.
+                    <br />
+                </p>
+                <p align="justify">
+                    Полиномите в <math>`F[x]`</math>  могат да се сумират, изваждат и умножават. <math>`F[x]`</math>  е пример на алгебрична
+                    структура на пръстен, тъй като удовлетвирява първите седем от общо осемте условия на поле. <math>`F[x]`</math>  не е поле,
+                    тъй като полиномите със степен по-висока от нула нямат мултипликативни инверсии.
+                    Ако <math>`f(x)`</math>, <math>`g(x)∈F[x]`</math> , тогава <math>`deg f(x).g(x)=deg f(x)+deg g(x)`</math>.
+                </p>
+                <p align="justify">
+                    <h3> Алгоритъм за деление на полиноми</h3>
+                <p align="justify">
+                    За всяка двойка от полиноми <math>`a(x)`</math> и <math>`b(x) ≠0`</math>  в <math>`F[x]`</math>  съществува единствена двойка от
+                    полиноми <math>`q(x)`</math>  и <math>`r(x)`</math>, такива че:  <math>`a(x)=q(x)b(x)+r(x)`</math> ,където <math>`deg r(x) < deg b(x)`</math>.
+                </p>
+                <p align="justify"> Полиномите <math>`q(x)`</math>  и <math>`r(x)`</math>  се получават чрез деление на полиномите.</p>
+                <p align="justify"> Пръстен от полиноми по модул <math>`f(x)`</math> </p>
+                <p align="justify">
+                    Нека <math>`f(x)`</math>  е фиксиран полином в <math>`F[x]`</math>. Два полинома <math>`g(x)`</math>  и <math>`h(x)`</math>  в <math>`F[x]`</math>
+                    са конгруентни по мадул <math>`f(x)`</math> , означени чрез <math>`g(x)≡h(x)(mod f(x))`</math> , ако <math>`g(x) - h(x)`</math>  е делимо на <math>`f(x)`</math>.
+                </p>
+                <p align="justify">
+                    В съответствие с разделителния алгоритъм всеки полином <math>`a(x)`</math>  в <math>`F[x]`</math>  е конгруентен по модул <math>`f(x)`</math>
+                    на единичния полином <math>`r(x)`</math>  със степен по – малка от <math>`deg f(x).`</math> <math>`r(x)`</math>  е принципният остатък,
+                    когато <math>`a(x)`</math>  се разделя на <math>`f(x)`</math>. Означава се с <math>`F[x]/f(x)`</math>   множеството от полиноми в <math>`F[x]`</math>
+                    със степен по – малка от <math>`deg f(x)`</math>, които се сумират и умножават по модул <math>`f(x)`</math>.
+                </p>
+                <h3>Извод:</h3>
+                <p align="justify">
+                    <math>`(F[x])/f(x)`</math>   е пръстен от полиноми по модил <math>`f(x)`</math> .
+                </p>
+                <p align="justify">
+                    Ако <math>`f(x) ∈F_2 [x]`</math>  е със степен <math>`n`</math> , тогава пръстена  <math>`(F_2 [x])/f(x)`</math>
+                    се състои от полиноми със степен<math>` ≤ (n-1)`</math> . Всеки от n-те коефициента на такъв полином принадлежи на <math>`F_q`</math>
+                    и от тук следва <math>`│(F_q [x])/f(x) │= q^n`</math>.
+                </p>
+                <p align="justify">
+                    Таблиците за сумиране и умножение в полето <math>`(F_2 [x])/(x^2+x+1)`</math>  са показани съответно в Тазлиците:
+                </p>
+                <br />
+                <p align="center">Таблица за Сумиране</p>
+                <br />
+                <img class="center-block img-thumbnail" src="~/Content/IMG/Table3.1.png" alt="Moderno - Theme by GraphBerry.com">
+                <br />
+                <p align="center">Таблица за Умножение</p>
+                <br />
+                <img class="center-block img-thumbnail" src="~/Content/IMG/Table3.2.png" alt="Moderno - Theme by GraphBerry.com">
+                <br />
+                <p align="justify">
+                    Както се вижда от таблицата за умножение всеки ненулев елемент има мултипликативна инверсия, следователно <math>`(F_2 [x])/(x^2+x+1)`</math>  е действително поле.
+                </p>
+                <h3>Дефиниция:</h3>
+                <p align="justify">
+                    Полиномът <math>`f(x)`</math>  е редицируем (приводим) ако <math>`f(x)=a(x).b(x)`</math> , където <math>`a(x),b(x)∈F[x]`</math> , ако <math>`deg b(x)`</math>
+                    са по – малко от deg <math>`f(x)`</math> . В повечето случай <math>`f(x)`</math>  е нередуцируем или неприведим.
+                </p>
+                <p align="justify">
+                    Всеки моничен полином може да се разложи (факторизира) по единствен начин в произведение от нередицируеми монични полиноми.
+                </p>
+                <h3>Лема:</h3>
+                <p align="justify">
+                    Полиномът <math>`f(x)`</math>   има линеен фактор x-a, тогава и само тогава когато <math>`f(a)=0`</math>  тоест за полином <math>`f(x)`</math>
+                    със степен <math>`n`</math> , разложението е от вида <math>`(x-a)^n`</math>
+                </p>
+                <p align="justify">
+                    Полиномът <math>`f(x)`</math>  в <math>`F[x]`</math>  със степен 2 или 3 е неприводим тогава и само тогава когато <math>`f(a)≠0`</math> .
+                </p>
+                <p align="justify">
+                    Върху кое да е поле, е в сила <math>`x^(n-1)=(x-1)(x^(n-1)+x^(n-2)+ cdots +x+1)`</math> , като вторият фактор може да продължи да се редуцира по-нататък.
+                </p>
+                <h3>
+                    Циклични кодове
+                </h3>
+                <p align="justify">
+                    Полиномът <math>`f(x)= x^n-1`</math>  има особено значение, тъй като <math>`(F[x])/(x^n-1)`</math>  от плиноми по модул <math>`x^n-1`</math>  е единственият,
+                    който може да се разглежда в контекста на цикличните кодове. За простота се означава <math>`(F[x])/(x^n-1)= R_n`</math> , където полето
+                    <math>` F=F_q`</math>  ще бъде по подразбиране.
+                </p>
+                <p align="justify">
+                    Тъй като <math>`x^n≡1(mod x^n-1)`</math> , всики полином по модул <math>`x^n-1`</math>  може да се редуцира чрез заместване на <math>`x^n`</math>  с <math>`1`</math>
+                    ,<math>` x^(n+1)`</math>  с <math>`x`</math>  и т.н.
+                </p>
+                <p align="justify">
+                    Нека вектора <math>`a_0 a_1 cdots a_(n-1)`</math>  в пространството <math>`V(n, q)`</math>  да се свърже с полинома
+                </p>
+                <p align="justify">
+                    <math>`a(x)=a_0+ a_1 x+ cdots +a_(n-1) x^(n-1)`</math>
+                </p>
+                <p align="justify">
+                    В пръстена <math>`R_n`</math>  където  <math>`n`</math>  е броя на елементите на полето.
+                </p>
+                <p align="justify">
+                    Цикличният код се разглежда като подмножество на <math>`V(n, q)`</math>  и като подмножество на пръстена <math>`R_n`</math>
+                    . Умножението на полинома <math>`a(x)`</math>  с <math>`х`</math>  има като резултат:
+                </p>
+                <br />
+                <p align="justify">
+                    <math>`x.a(x)=a_0 x+ a_1 x^2+ cdots +a_(n-1) x^n=a_(n-1)+a_0 x+a_1 x^2+ cdots +a_(n-2) x^(n-1)`</math>
+                </p>
+                <br />
+                <p align="justify">
+                    Което съответства на кода <math>`a_(n-1) a_0 a_1 cdots a_(n-2)`</math> . Следователно, умножението с <math>`х`</math>
+                    кореспондира на реализацията на единично циклично преместване. Умножението с <math>`x^m`</math>  съответства на циклично преместване на <math>`m`</math>  позиции.
+                </p>
+                <h3> Теорема:</h3>
+                <p align="justify">
+                    Кодът <math>`С`</math>  в пръстена <math>`R_n`</math>  е цикличен код тогава и само тогава, когато <math>`С`</math>  удовлетворява следните условия:
+                </p>
+                <br />
+                <p align="justify">
+                    <math>`a(x),b(x)∈C ⇒ a(x)+b(x)∈C`</math>
+                </p>
+                <br />
+                <p align="justify">
+                    <math>`a(x)∈C`</math>  и <math>`r(x)∈R_n  ⇒ r(x)a(x)∈C`</math>
+                </p>
+                <br />
+                <h3>Теорема:</h3>
+                <p align="justify">
+                    За всяко <math>`f(x)∈R_n`</math> , множеството <math>`{f(x)}`</math>  е цикличен код. Това се нарича код генериран от <math>`f(x)`</math> .
+                </p>
+                <h3>Теорема:</h3>
+                <p align="justify">
+                    Нека <math>`С`</math>  е ненулев цикличен код в <math>`R_n`</math> . Тогава:
+                </p>
+                <p align="justify">
+                    Съществува уникален моничен полином <math>`g(x)`</math>  с най-малка степен в <math>`С`</math> .
+                </p>
+                <p align="justify">
+                    <math>` С={g(x)}`</math> .
+                </p>
+                <p align="justify">
+                    <math>` g(x)`</math>  е фактор на <math>`С`</math> , тоест дели <math>`x^n-1`</math>  или <math>`x^n+1`</math>  без остатък.
+                </p>
+                <p align="justify">
+                    С в кодова дума, тогава и само тогава когато <math>`g(x)`</math>  дели кодовия полином <math>`С(х)`</math>  без остатък.
+                </p>
+                <h3> Дефиниция:</h3>
+                <p align="justify">
+                    В неннулевия цикличен код <math>`С`</math>  моничният полином от най-ниска степен се нарича пораждащ полином.
+                </p>
+
+                <p align="justify">
+                    Цикличният код <math>`С`</math>  може да съдържа полиноми, различни от пораждащия полином, който също пораждат кода <math>`С`</math>.
+                    Третата част на теоремата дефинира методика за намирае на всички циклични кодове с дължина <math>`n`</math>
+                    . Необходимо е разложението (факторизирането) на <math>`x^n-1`</math>  в неприводими монични полиноми.
+                </p>
+                <h3>Лема:</h3>
+                <p align="justify">
+                    Ако <math>`g(x)=g_0+ g_1 x+ cdots +g_r x^r`</math>  е пораждащ полином на сикличния код, то <math>`g_0`</math>  е ненулев елемент.
+                </p>
+                <h3>Теорема:</h3>
+                <p align="justify">
+                    Ако <math>`С`</math>  е цикличен код с пораждащ полином <math>`g(x)=g_0+ g_1 x+ cdots +g_r x^r`</math>  със степен <math>`r`</math> . Тогава <math>`dim (C)=n-r`</math>
+                    и пораждащата матрица има вида:
+                </p>
+                <p align="center"><math>`(((g_0), (g_1),(g_2),cdots,cdots,(g_r),0,0,cdots,0),(0,(g_0),(g_1),(g_2),cdots,cdots,(g_r),0,cdots,0),(0,0,(g_0),(g_1),(g_2),cdots,cdots,(g_r),cdots,cdots),(cdots,cdots,cdots,cdots,cdots,cdots,cdots,cdots,cdots,0),(0,0,cdots,0,(g_0),(g_1),(g_2),cdots,cdots,(g_r)))`</math></p>
+
+
+                <h3> Дефиниция:</h3>
+                <p align="justify">
+                    Нека <math>`С`</math>  е цикличен <math>`[n, k]`</math>  код с пораждащ полином <math>`g(x)`</math> . В съответствие с теоремата <math>`g(x)`</math>  е фактор на <math>`x^n-1`</math>
+                    , тоест съществува полином <math>`h(x)`</math> ,за който в е сила:
+                </p>
+                <p align="justify">
+                    <math>` x^n-1=g(x)h(x)`</math>
+                </p>
+                <p align="justify">
+                    Тъй като <math>`g(x)`</math>  е моничен полином,то и <math>`h(x)`</math>  е миничен полином. Следователно <math>`g(x)`</math>  има степен <math>`n – k`</math>
+                    , а <math>`h(x)`</math>  има степен <math>`k`</math> . Полиномът <math>`h(x)`</math>  с енарича проверовъчен полином на <math>`С`</math> .
+                </p>
+                <h3> Теорема:</h3>
+                <p align="justify">
+                    Допусна се, че <math>`С`</math>  е цикличен код в <math>`R_n`</math>  с пораждащ полином <math>`g(x)`</math>  и проверовъчен полином <math>`h(x)`</math>
+                    . Тогава елементът <math>`С(х)`</math>  от <math>`R_n`</math>  е кодов полином или кодова дума на <math>`С`</math> , тогава и само тогава когато <math>`C(x)h(x)=0`</math> .
+                </p>
+
+                <p align="justify">
+                    Условието <math>`С(х)h(x)=0`</math>  в <math>`R_n`</math>  дефинира ортогонални съотнишения между коефициентите на полиномите <math>`С(х)`</math>  и  <math>`h(x)`</math>
+                    които водт до естетствен избор на проверочна матрица.
+                </p>
+                <h3>Теорема:</h3>
+                <p align="justify">
+                    Допуска се, че <math>`С`</math>  е цикличен <math>`[n, k]`</math>  код в <math>`R_n`</math>  с проверовъчен полином <math>`h(x)`</math> :
+                </p>
+                <p align="justify">
+                    <math>`h(x)=h_0+ h_1 x+ …+h_k x^k`</math>
+                    тогава:
+                </p>
+                <br />
+                <p align="center">
+                    <math>`(((h_k),(h_(k-1)),cdots,(h_0),0,0,cdots,0),(0,(h_k),(h_(k-1)),cdots,(h_0),0,cdots,0),(0,0,(h_k),(h_(k-1)),cdots,(h_0),cdots,cdots),(cdots,cdots,cdots,cdots,cdots,cdots,cdots,0),(0,cdots,0,(h_k),(h_(k-1)),cdots,cdots,(h_0)))`</math>
+                </p>
+                <br />
+                <p align="justify">
+                    <math>`C^⊥`</math>  е цикличен код, генериран от полинома:<math>` C^⊥ (x)=barh (x)=h_k+h_(k-1) x+ cdots +h_0 x^k`</math> .
+                </p>
+                <h3>Извод:</h3>
+                <p align="justify">
+                    Полиномът  <math>`bar h(x)=h_k+h_(k-1) x+ cdots +h_0 x^k`</math>  се нарича реципрочен полином на <math>`h(x)`</math> , неговите коефициенти са тези от <math>`h(x)`</math>
+                    , но взети в обратен ред.
+                </p>
+                <p align="justify">
+                    Полиномът  <math>`bar h(x)=h_k+h_(k-1) x+ cdots +h_0 x^k`</math>  може да се разглежда като пораждащ полином на <math>`C^⊥`</math>
+                    , но при небинарни случай този полином трябва да се умножи със скалара <math>`h_0^(-1)`</math> , за да се преобразува в моничен полином.
+                </p>
+                <p align="justify">
+                    Полинома <math>`hx^(-1)=x^(n-1)barh(x)`</math>  е член на ортогоналния код <math>`C^⊥`</math> .
+                </p>
+
+                <h3> Кодиране с циклични кодове</h3>
+                <h3> Определение:</h3>
+                <p align="justify">
+                    Цикличното кодиране е систематично, когато информационните символи са част от кодовата дума, а в противен случай е несистематично.
+                </p>
+
+                <h3> Несистематично кодиране</h3>
+                <p align="justify">
+                    Нека <math>`С`</math>  е цикличен код, над полето <math>`F_qс`</math>  пораждащ полином <math>`g(x)`</math> ,съдържащ  <math>`q^n`</math>  кодови думи с дължина <math>`n`</math>
+                    Съобщението, което трябва да се кодира е вектор <math>`u`</math> , дефиниран с последователност от символи <math>`u_0,u_1,cdots,u_(k-1)`</math>
+                    . На този вектор съответства полином съобщението от вида:
+                </p>
+                <br />
+                <p align="justify">
+                    <math>`u(x)=u_0 x^0+u_1 x+ cdots +u_(k-1) x^(k-1)`</math>    или  <math>`u(x)=u_0+u_1 x+ cdots +u_(k-1) x^(k-1)`</math>
+                </p>
+                <br />
+                <h3>Систематично кодиране</h3>
+                <p align="justify">
+                    Даден е цикличен <math>`[n, k]`</math>  код <math>`C`</math>  и информационен полином:
+                </p>
+                <p align="justify">
+                    <math>`u(x)=u_0+u_1 x+ cdots +u_(k-1) x^(k-1)`</math> , където <math>`t(x)`</math>  е полином със степен по-малка от <math>`(n - k)`</math> .
+                </p>
+                <p align="justify">
+                    Известни са два подхода на систематично кодиране : чрез пораждащ полином и чрез порверовъчен полином.
+                </p>
+
+                <h3>Систематично кодиране чрез пораждащ полином</h3>
+                <p align="justify">
+                    Нека <math>`g(x)`</math>  е пораждащ полином но кода . Тогава <math>`g(x)`</math>  дели кодовия полином <math>`C(x)=t(x)+x^(n-k) u(x)`</math>
+                    без остатък. Допуска се, че полиномът <math>`x^(n-k) u(x)`</math>  се дели на <math>`g(x)`</math>  с частно <math>`q(x)`</math>  и остатък <math>`r(x)`</math> , тоест:
+                </p>
+                <br />
+                <p align="justify">
+                    <math>`x^(n-k) u(x)= q(x)g(x)+r(x)`</math>
+                </p>
+                <br />
+                <p align="justify">
+                    Тогава кодовият полином <math>`С(х)`</math>  се записва във вида: <math>`C(x)=r(x)+t(x)+q(x) g(x)`</math>
+                </p>
+                <p align="justify">
+                    По определение <math>`r(x)+t(x)=0(mod g(x))`</math> , От където следва <math>`t(x)=r(x)(mod g(x))`</math> .
+                </p>
+
+                <h3> Систематично кодиране чрез проверяващ полином</h3>
+
+                <p align="justify">
+                    Допъска се, че <math>`С`</math>  е цикличен <math>`[n, k]`</math>  код  спораждащ полином <math>`g(x)`</math>  със тепен <math>`(n - k)`</math>.
+                    Проверовъчният полином на кода <math>`С`</math>  се определя от полиномното отношение <math>`h(x)=(x^n-1)/(g(x))`</math>.
+                    Елементите на полинома <math>`h(x)`</math>  дефинират проверовъчната матрица <math>`H`</math>  на кода <math>`C`</math> .
+                </p>
+                <br />
+                <p align="center">
+                    <math>`H=(((h_k),(h_(k-1)),cdots,(h_0),0,0,cdots,0),(0,(h_k),(h_(k-1)),cdots,(h_0),0,cdots,0),(0,0,(h_k),(h_(k-1)),cdots,(h_0),cdots,cdots),(cdots,cdots,cdots,cdots,cdots,cdots,cdots,0),(0,cdots,0,(h_k),(h_(k-1)),cdots,cdots,(h_0)))`</math>
+                </p>
+                <br />
+                <p align="justify">
+                    По определение всеки кодов вектор <math>`c=[c_0 c_1 cdots c_(k-1)] ∈C`</math>  е ортогонален на редовете на матрицата <math>`H`</math> , тоест <math>`H`</math>
+                    . <math>`c^T=0`</math> , От където за всяко <math>`i=bar(0,n-k-1)`</math>  следва
+                </p>
+                <br />
+                <p align="justify">
+                    <math>`c_i h_k+c_(i+1) h_(k-1)+ cdots +c_(i+k) h_0=0`</math>
+                </p>
+                <br />
+                <p align="justify">
+                    При <math>`h_k≠0`</math>  и известни координати <math>`c_(i+1)+c_(i+2)+ cdots +c_(i+k)`</math>  на вектора c може да се определи елемент <math>`c_i`</math> .
+                </p>
+                <h3>Декодиране на циклични кодове</h3>
+                <p align="justify">
+                    Даден е <math>`[n, k]`</math>  цикличен код <math>`С`</math>  над полето <math>`F_q`</math>  с пораждащ полином <math>`g(x)`</math>. 
+                    Формира се съкратена таблица на синдромите на комножествата (съседни множества), дефинирани с полиномите <math>`a(x)+c(x)`</math>. 
+                    Те се характеризират с лидери, чиито полиноми <math>`a(x)`</math>  са с коефициенти пред <math>`x^(n-1)`</math> , различни от нула.
+                    По определение всеки кодов полином  <math>`с(х)`</math> , съответстващ на кодов вектор от цикличния код <math>`С`</math>,
+                    се дели на пораждащия полином <math>`g(x)`</math>   без остатък. Освен това, полиномите на произволни кодови думи  <math>`a(x)+c(x)`</math> ,
+                    които имат едио и също комножество. Следователно синромът с полином <math>`s(x)`</math>  на комножеството е остатъкът от
+                    делението на полинома <math>`a(x)`</math>  на <math>`g(x)`</math> , тоест  <math>`a(x)=q(x)g(x)+s(x)`</math> , където степента на  <math>`s(x)`</math>  в по-малка от <math>`n – k`</math> .
+                </p>
+                <p align="justify">
+                    Броят на комножествата в пространството от n-мерни вектори на сикличен <math>`[n, k]`</math>  код <math>`С`</math>  е равен на <math>`q^(n-k)`</math> .
+                </p>
+                <h3>Алгоритъм</h3>
+                <h4>Входни данни:</h4>
+                <p align="justify">  <math>`n`</math> – Дължина на кода, зададена с целочислена стойност. </p>
+                <p align="justify">  <math>`g`</math> – бинарен вектор, записан с десетиичния му еквивалент, определящ пораждащият полином на кода. </p>
+                <p align="justify">  <math>`Y`</math> – бинарен вектор (който трябва да се поправи). </p>
+                <p align="justify">   Генерира се бинарен вектор <math>`gB`</math> еквивалентен на десеттичното число <math>`g`</math>. </p>
+                <p align="justify">   Генерира се полином еквивалентен на <math>`gB`</math>, ако той се дели на полинома <math>`x^n-1`</math>, 
+                от него се генерира цикличната пораждаща матрица <math>`G`</math>, в противен случей се извежда съобщение за грешни входни данни. </p>
+                <h4> Създава се тбалица със синдроми:</h4>
+                <p align="justify">  Образува се вектора грешка – еквивалентен наполинома <math>`x^(n-1)`</math>. </p>
+                <p align="justify"> Вектора грешка се разделя на пораждащия вектория, като се взема остатъка от делените. Това е синдрома. </p>
+                <p align="justify"> Векторите грешки се образуват по от следната редица <math>`x^(n-1), x^(n-1)+x^(n-2), x^(n-1)+x^(n-3), … , x^(n-1)+x^0`</math>. </p>
+                <p align="justify">  Образува се полинома еквивлентен на вектора <math>`Y`</math>. </p>
+                <p align="justify">   Получения полином се дели на пораждащия </p>
+                <p align="justify">   Ако не се получи остатък от делението, в полинома <math>`Y`</math> не е допусната грешка. </p>
+                <p align="justify">   Ако се получи остатък се проверява дали той съвпада с получения синдром. </p>
+                <p align="justify">   Ако съвпада със синдрома го събираме побитово с вектора грешка. </p>
+                <p align="justify">   Ако не съвпада, върху получения остатък се прилага циклично побитово отместване на дясно
+                 (еквивалентно на умножение по <math>`x`</math>). Тези отмествания се продължават докато се получи полином съвпадащ с получения синдром. </p>
+                <p align="justify">   Следкато е получен остатък сувпадащ със синдрома, върху вектора грешка се прилага побиров 
+                шифт на ляво толкова пъти, колкото отмествания на дясно са направени за получаване на съвпадение между остатака и сундрома. </p>
+                <p align="justify">   Получения вектор се сбира побитово с вектора <math>`Y`</math>. </p>
+                <p align="justify">   В резултат се получава правилният вектор <math>`Y`</math>. </p>
+                <h4> Пример:</h4>
+                <h4>Входни данни:</h4>
+                <p align="justify">  <math>`n = 7`</math>;</p>
+                <p align="justify">  <math>`g = 104; = 1101000 → 1+x+x^3`</math></p>
+                <p align="justify"> <math>`Y = 0110111`</math></p>
+                <p align="justify">  Получават се <math>`r`</math> и <math>`k: r = n – k`</math>, т.е. <math>`r = 3, k = 4`</math>;</p>
+                <p align="justify">  Генерира се пораждащата матрица:</p>
+                <br/>
+                <p align="center">   <math>`G=((1,1,0,1,0,0,0),(0,1,1,0,1,0,0),(0,0,1,1,0,1,0),(0,0,0,1,1,0,1))`</math></p>
+                <br />
+                <p align="justify">   Полинома <math>`x^7-1`</math> се разлагана прости можители, за да с епровери дали полинома <math>`g`</math> е негов делител.</p>
+                <p align="justify">   <math>`x^7-1=(x+1)*(x^3 + x^2+1 )*(x^3+x+1 )`</math></p>
+                <p align="justify">  От тук се вижда че пораждащият полоном <math>`x^3+x+1`</math>  е делител на полинома <math>`x^7-1`</math>, следователно алгоритма може да продължи нататък.</p>
+                <p align="justify">   Лидерите на съседните класове от таблицата със синдроми са следните: <math>`x^6,x^6+x^5,x^6+x^4`</math>;</p>
+                <p align="justify">  За да се получи първият синдром, <math>`x^6`</math> се разделя на пораждащия полином <math>`x^3+x+1`</math>  и да се вземе техният остатък.</p>
+                <p align="justify">  За да се получи първият синдром, <math>`x^6`</math> се разделя на пораждащия полином <math>`x^3+x+1`</math>  и да се вземе техният остатък.</p>
+                <p align="justify">  <math>`x^6 ∶x^3+x+1  = x^2+1`</math> (търсеният остатък)</p>
+                <p align="justify">   Полиномана вектора <math>`Y`</math> се разделя на пораждащият полином, търси се остатъка им.</p>
+                <p align="justify">   <math>`x^6+x^5+x^4+x^2+x∶ x^3+x+1=x`</math>   (търсеният остатък)</p>
+                <p align="justify">   <math>`x`</math> не съвпада с <math>`x^2+1`</math>, затова трябва да се умножава с x докато се поличи <math>`x^2+1`</math></p>
+                <p align="justify">   <math>`x*x= x^2`</math></p>
+                <p align="justify">  <math>` x^2*x= x^3`</math></p>
+                <p align="justify">   <math>`x^3: x^3+x+1=x+1`</math> отново не съвпада</p>
+                <p align="justify">  <math>`(x+1)*x= x^2+x`</math></p>
+                <p align="justify">  <math>` (x^2+x)*x=x^3+ x^2`</math></p>
+                <p align="justify">  <math>` x^3+ x^2 ∶ x^3+x+1= x^2+x+1`</math> отново не съвпада</p>
+                <p align="justify">   <math>`(x^2+x+1)*x= x^3+ x^2+x`</math></p>
+                <p align="justify">   <math>`x^3+ x^2+x∶ x^3+x+1= x^2+1`</math>  съвпада!</p>
+                <p align="justify">   Направени са <math>`5`</math> отмествания на дясно, значи върху вектора грешка <math>`(0000001)`</math>, 
+                трябва да се приложат <math>`5`</math> шифта на ляво т.е вектора който се получава е: <math>`0100000`</math>.</p>
+                <p align="justify">   Този вектор се събира побитово с вектора <math>`Y`</math>. Като резлтат се получава <math>`0010111`</math>, и това е правилният вектор.</p>
+
+</div>
+        </div>
+    </div>
+</section>
+<!-- Contact section end -->
+<!-- Footer start -->

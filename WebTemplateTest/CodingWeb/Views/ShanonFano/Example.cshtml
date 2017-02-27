@@ -1,0 +1,83 @@
+﻿
+@{
+    ViewBag.Title = "Example";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron home home-fullscreen" id="home">
+    <div class="mask"></div>
+    <a href="#" class="logo">
+        <img src="~/Content/IMG/96x96.png" alt="Moderno - Theme by GraphBerry.com">
+    </a>
+    <!-- Offsite navigation -->
+    <div class="container">
+        <div class="header-info">
+            <h1>ШУМОЗАЩИТНО КОДИРАНЕ</h1>
+            <p>
+                кодиране на информацията с цел с запазването и при предаването в каналите за връзка.
+            </p>
+            <a href="/Coding/Coding" class="btn btn-primary">ОЩЕ>></a>
+        </div>
+    </div>
+</div>
+<!-- Services section end -->
+<!-- Portfolio section start -->
+<section id="portfolio" class="darker">
+    <div class="container">
+        <header>
+            <h2>ПРИЛОЖЕНИЕ</h2>
+        </header>
+    </div>
+    <div id="single-project"></div>
+    <div class="row">
+        <div class="container">
+            <div class="col-md-6 text-xs-right">
+                <div class="panel panel-info">
+                    <div class="panel-heading">Кодиране</div>
+                    <div class="panel-body">
+                        <br />
+                        <div class="form-group">
+                            <label for="comment">Въведете текст:</label>
+                            <textarea id="TextAreaPlain" class="form-control" rows="9"></textarea>
+                            <br />
+                            <input type="submit" class="btn btn-primary" value="Напред" onclick="EncodeBtn_Click('ShanonFano')"/>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <label>Ключ : </label>
+                            <input id="Key" type="text" disabled/>
+                            <br/>
+                            <label for="comment">Кодирания текст:</label>
+                            <textarea id="TextAreaEncodec" readonly class="form-control" rows="9" id="comment"></textarea>
+                            <br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-xs-right">
+                <div class="panel panel-info">
+                    <div class="panel-heading">Декодиране</div>
+                    <div class="panel-body">
+                        <br />
+                        <div class="form-group">
+                            <label>Ключ : </label>
+                            <input id="InputKey" type="text" />
+                            <br/>
+                            <label for="comment">Въведете текст:</label>
+                            <textarea id="TextAreaCoded" class="form-control" rows="9" id="comment"></textarea>
+                            <br />
+                            <input type="submit" class="btn btn-primary" value="Напред" onclick="DecodeBtn_Click('ShanonFano')"/>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <label for="comment">Кодирания текст:</label>
+                            <textarea id="TextAreaDecoded" readonly class="form-control" rows="9" id="comment"></textarea>
+                            <br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

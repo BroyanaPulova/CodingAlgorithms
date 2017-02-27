@@ -1,0 +1,155 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron home home-fullscreen" id="home">
+    <div class="mask"></div>
+    <a href="#" class="logo">
+        <img src="~/Content/IMG/96x96.png" alt="Moderno - Theme by GraphBerry.com">
+    </a>
+    <a href="" class="menu-toggle" id="nav-expander"><i class="fa fa-bars"></i></a>
+    <!-- Offsite navigation -->
+    <nav class="menu">
+        <a href="#" class="close"><i class="fa fa-close"></i></a>
+        <h3>Меню</h3>
+        <ul class="nav">
+            <li><a data-scroll href="#home">Начало</a></li>
+            <li><a data-scroll href="#services">Обслужване</a></li>
+            <li><a data-scroll href="#portfolio">Приложение</a></li>
+        </ul>
+        <ul class="social-icons">
+            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+            <li><a href=""><i class="fa fa-behance"></i></a></li>
+            <li><a href=""><i class="fa fa-pinterest"></i></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="header-info">
+            <h1>ШУМОЗАЩИТНО КОДИРАНЕ</h1>
+            <p>
+                кодиране на информацията с цел с запазването и при предаването в каналите за връзка.
+            </p>
+            <a href="/Coding/Coding" class="btn btn-primary">ОЩЕ>></a>
+        </div>
+    </div>
+</div>
+<!-- Services section start -->
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="service-item">
+                    <div class="icon"><a href="#"><i class="fa fa-user-plus"></i></a></div>
+                    <h3>Регистрация</h3>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-item">
+                    <div class="icon"><a href="#"><i class="fa fa-user-secret"></i></a></div>
+                    <h3>Вход</h3>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-item">
+                    <div class="icon"><a href="~/Questions/Questions"><i class="glyphicon glyphicon-question-sign"></i></a></div>
+                    <h3>Въпроси</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Services section end -->
+<!-- Portfolio section start -->
+<section id="portfolio" class="darker">
+    <div class="container">
+        <header>
+            <h2>Теоретично въведение</h2>
+        </header>
+        <div id="single-project"></div>
+        <div class="row">
+            <figure class="portfolio-item col-md-4 col-sm-6">
+                <div style="display: block;">
+                    <img src="../Content/IMG/ShFIcon.png" alt="Метод на Шенън-Фано"><div style="display: initial;" />Метод на Шенън-Фано
+                </div>
+                <figcaption class="mask">
+                    <i id="ShanonFano" class="glyphicon glyphicon-plus">
+                    </i>
+                </figcaption>
+            </figure>
+            <figure class="portfolio-item col-md-4 col-sm-6">
+                <div style="display: block;">
+                    <img src="../Content/IMG/HuffmanIcon.png" alt="Метод на Хъфман" /><div style="display: initial;" />Метод на Хъфман
+                </div>
+                    <figcaption class="mask">
+                        <a href="~/Hufman/ShortDetails">
+                            <i id="Hufman" class="glyphicon glyphicon-plus"></i>
+                        </a>
+                    </figcaption>
+</figure>
+            <figure class="portfolio-item col-md-4 col-sm-6">
+                <div style="display: block;">
+                    <img src="../Content/IMG/SLCIcon.png" alt="Спектър на линеен код" /><div style="display: initial;" />Спектър на линеен код
+                </div>
+                    <figcaption class="mask">
+                        <i id="LinearCodes" class="glyphicon glyphicon-plus"></i>
+                    </figcaption>
+</figure>
+            <figure class="portfolio-item col-md-4 col-sm-6">
+                <div style="display: block;">
+                    <img src="../Content/IMG/SFMIcon.png" alt="Определяне на проверочна матрица" /><div style="display: initial;" />Oпределяне на проверовъчна матрица
+                </div>
+                    <figcaption class="mask">
+                        <a href="~/Views/_TestProject.cshtml">
+                            <i id="SystematicForm" class="glyphicon glyphicon-plus"></i>
+                        </a>
+                    </figcaption>
+</figure>
+            <figure class="portfolio-item col-md-4 col-sm-6">
+                <div style="display: block;">
+                    <img src="../Content/IMG/SDIcon.png" alt="Синдромно декодиране" /><div style="display: initial;" />Систематично декодиране
+                </div>
+                    <figcaption class="mask">
+                        <a href="~/Views/_TestProject.cshtml">
+                            <i id="SystematicallyDecoding" class="glyphicon glyphicon-plus"></i>
+                        </a>
+                    </figcaption>
+</figure>
+            <figure class="portfolio-item col-md-4 col-sm-6">
+                <div style="display: block;">
+                    <img src="../Content/IMG/HamIcon.png" alt="Декодиране с код на Хеминг" /><div style="display: initial;" />Декодиране с код на Хеминг
+                </div>
+                    <figcaption class="mask">
+                        <a href="~/Views/_TestProject.cshtml">
+                            <i id="Hemming" class="glyphicon glyphicon-plus"></i>
+                        </a>
+                    </figcaption>
+</figure>
+            <figure class="portfolio-item col-md-4 col-sm-6">
+                <div style="display: block;">
+                    <img src="../Content/IMG/MIcon.png" alt="Декодер на Мегит" /><div style="display: initial;" />Декодер на Мегит
+                </div>
+                     <figcaption class="mask">
+                        <a href="projects/project-1.html">
+                            <i id="Meggitt" class="glyphicon glyphicon-plus"></i>
+                        </a>
+                    </figcaption>
+</figure>
+            <figure class="portfolio-item col-md-4 col-sm-6">
+                <div style="display: block;">
+                    <img src="../Content/IMG/RMIcon.png" alt="Кодове на Рийд Мулер" /><div style="display: initial;" />Кодове на Рийд-Малер
+                </div>
+                    <figcaption class="mask">
+                        <a href="projects/project-1.html">
+                            <i id="ReedMuller" class="glyphicon glyphicon-plus"></i>
+                        </a>
+                    </figcaption>
+</figure>
+        </div>
+    </div>
+</section>
+<!-- Contact section end -->
+<!-- Footer start -->

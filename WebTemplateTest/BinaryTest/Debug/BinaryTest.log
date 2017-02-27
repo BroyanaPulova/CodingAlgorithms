@@ -1,0 +1,3 @@
+﻿BinaryTest.obj : error LNK2019: unresolved external symbol "public: __thiscall SpectreLinearCode::SpectreLinearCode(void)" (??0SpectreLinearCode@@QAE@XZ) referenced in function _main
+BinaryTest.obj : error LNK2019: unresolved external symbol "public: void __thiscall SpectreLinearCode::Combinations(int,int,int *)" (?Combinations@SpectreLinearCode@@QAEXHHPAH@Z) referenced in function _main
+C:\Users\Boryana\documents\visual studio 2015\Projects\WebTemplateTest\Debug\BinaryTest.exe : fatal error LNK1120: 2 unresolved externals
